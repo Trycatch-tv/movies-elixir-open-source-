@@ -2,7 +2,7 @@ defmodule Movies.Repo.Migrations.CreateMovies do
   use Ecto.Migration
 
   def change do
-    create table(:movies) do
+    create table(:movies_2) do
       add :name, :string
       add :category, :string
       add :date_opening, :utc_datetime
