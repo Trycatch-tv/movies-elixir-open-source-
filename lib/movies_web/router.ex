@@ -7,6 +7,7 @@ defmodule MoviesWeb.Router do
 
   scope "/api", MoviesWeb do
     pipe_through :api
+    resources "/movies",Movies_requestController, except: [:new,:edit]
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
