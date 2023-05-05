@@ -3,9 +3,9 @@ import Config
 # Configure your database
 config :movies, Movies.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "dentreaca1",
   hostname: "localhost",
-  database: "movies_dev",
+  database: "movies",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
